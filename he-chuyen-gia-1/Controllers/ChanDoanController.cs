@@ -13,10 +13,7 @@ namespace he_chuyen_gia_1.Controllers
     {
         private static readonly object _lock = new object();
 
-        private PrologHelper _prolog = new PrologHelper();
-        public ChanDoanController()
-        {
-        }
+        private PrologService _prolog = new PrologService();
 
         [HttpGet("danh-sach-trieu-chung")]
         public ActionResult<List<string>> GetSystompList()
