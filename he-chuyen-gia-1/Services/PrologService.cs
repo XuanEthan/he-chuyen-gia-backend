@@ -1,9 +1,9 @@
 ﻿using SbsSW.SwiPlCs;
 using he_chuyen_gia_1.Entity;
 
-public class PrologHelper
+public class PrologService
 {
-    public PrologHelper()
+    public PrologService()
     {
         if (!PlEngine.IsInitialized)
         {
